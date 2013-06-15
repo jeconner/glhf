@@ -21,12 +21,12 @@ void RenderFunction(void);
 
 int main(int argc, char* argv[])
 {
-    Initialize(argc, argv);
+	Initialize(argc, argv);
 
-    glutMainLoop();
+	glutMainLoop();
 
 	getchar();
-    exit(EXIT_SUCCESS);
+	exit(EXIT_SUCCESS);
 }
 
 void Initialize(int argc, char* argv[])
