@@ -42,7 +42,7 @@ void InitWindow(int argc, char* argv[])
 {
 	glutInit(&argc, argv);
 
-	glutInitContextVersion(3.3, 0);
+	glutInitContextVersion(3, 0);
 	glutInitContextFlags(GLUT_FORWARD_COMPATIBLE);
 	glutInitContextProfile(GLUT_CORE_PROFILE);
 
